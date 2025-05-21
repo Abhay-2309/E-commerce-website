@@ -1,0 +1,10 @@
+* text=auto
+# Force LF for JS/JSON/HTML/CSS
+*.js text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.php text eol=lf
+
+# Windows-style endings for batch files
+*.bat text eol=crlf

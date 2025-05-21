@@ -1,0 +1,18 @@
+[20-May-2025 18:24:47 UTC] Invalid product slug provided "elementor", does not match bsf_product_slugs
+[20-May-2025 18:25:52 UTC] WordPress database error Table 'wp_e_events' already exists for query CREATE TABLE `wp_e_events` (
+			id bigint(20) unsigned auto_increment primary key,
+			event_data text null,
+			created_at datetime not null
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->create_table
+[20-May-2025 18:25:52 UTC] WordPress database error Duplicate key name 'created_at_index' for query ALTER TABLE wp_e_events
+    		ADD INDEX `created_at_index` (`created_at`)
+		 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, Elementor\Plugin->init_components, Elementor\Core\Admin\Admin->__construct, Elementor\Plugin->init_common, Elementor\Core\Common\App->init_components, Elementor\Core\Common\Modules\EventTracker\Module->__construct, Elementor\Core\Common\Modules\EventTracker\DB->__construct, Elementor\Core\Common\Modules\EventTracker\DB->add_indexes
+[20-May-2025 18:25:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\Priya Das\Local Sites\vishva\app\public\wp-content\plugins\woocommerce\includes\class-wc-install.php on line 938
+[20-May-2025 18:25:59 UTC] PHP Warning:  Undefined array key "title" in C:\Users\Priya Das\Local Sites\vishva\app\public\wp-content\plugins\woocommerce\includes\class-wc-install.php on line 940
+[20-May-2025 18:25:59 UTC] PHP Warning:  Undefined array key "name" in C:\Users\Priya Das\Local Sites\vishva\app\public\wp-content\plugins\woocommerce\includes\class-wc-install.php on line 938
+[20-May-2025 18:25:59 UTC] PHP Warning:  Undefined array key "title" in C:\Users\Priya Das\Local Sites\vishva\app\public\wp-content\plugins\woocommerce\includes\class-wc-install.php on line 940
+[20-May-2025 18:26:00 UTC] Invalid product slug provided "woocommerce", does not match bsf_product_slugs
+[20-May-2025 18:27:51 UTC] Invalid product slug provided "wpforms-lite", does not match bsf_product_slugs
+[20-May-2025 18:29:02 UTC] Invalid product slug provided "woocommerce", does not match bsf_product_slugs
+[20-May-2025 19:07:48 UTC] Cron reschedule event error for hook: cartflows_ca_update_order_status_action, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_fifteen_minutes","args":[],"interval":1200}
+[20-May-2025 19:59:20 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
